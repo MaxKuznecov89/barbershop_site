@@ -1,0 +1,32 @@
+* {
+    outline: 1px solid red;
+}
+
+.in_wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.wrapper_header {
+    background-color: #000000;
+}
+
+.wrapper_content {
+    background-image: url("../img/tint.png");
+}
+
+.wrapper_footer {
+    background-color: #1f1f1f;
+}
+
+.nav {
+    display: flex;
+    /*justify-content:space-around;*/
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}

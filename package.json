@@ -1,0 +1,19 @@
+{
+  "name": "barbershop_site",
+  "version": "1.0.0",
+  "description": "site of haircut company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolay1984/barbershop_site.git"
+  },
+  "author": "Nikolay Nikulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolay1984/barbershop_site/issues"
+  },
+  "homepage": "https://github.com/Nikolay1984/barbershop_site#readme"
+}
