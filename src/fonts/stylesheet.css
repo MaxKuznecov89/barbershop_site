@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('ptsansnarrow.woff2') format('woff2'),
+         url('ptsansnarrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'webfontregular';
+    src: url('ptsansnarrowbold.woff2') format('woff2'),
+         url('ptsansnarrowbold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

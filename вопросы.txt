@@ -1,0 +1,2 @@
+почему у строчного элемента нее работает margin-top?
+https://codepen.io/maxkuznecov89/pen/YzzoWNz
