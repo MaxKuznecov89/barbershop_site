@@ -2,6 +2,9 @@
     outline: 1px solid red;
     
 }
+/*html{*/
+    /*overflow-x:hidden;*/
+/*}*/
 
 body{
      font-family:  'webfontregular';
@@ -14,9 +17,11 @@ body{
 
 .in_wrapper_header{
     display: flex;
+    justify-content: space-between
 }
 
 .wrapper_header {
+    /*width: 100%;*/
     background-color: #000000;
 }
 
@@ -30,18 +35,51 @@ body{
 
 .nav {
     display: flex;
+    /*justify-content: space-around;*/
+    margin-right: 100px;
     /*justify-content:space-around;*/
 }
 
 .nav_link {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
-    margin-right: 20px;
+
     text-transform: uppercase;
  
 }
 .items_nav{
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+.wrap_enter{
+    padding-left: 0;
+    padding-right: 30px;
+}
+.header_in_picture{
+    padding-right: 15px;
+}
+.wrapper_logo{
+    padding-top: 60px;
+    text-align: center;
+
+}
+.advantages_items{
+    color: white;
+
+    display: flex;
+}
+.advantage_item{
+    padding-top: 68px;
+    text-align: center;
+}
+.advantage_titel{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 30px;
+}
+.advantage_pic{
+    display: inline-block;
+    padding-top: 10px;
 }
