@@ -67,8 +67,8 @@ body{
 }
 .advantages_items{
     color: white;
-
     display: flex;
+    justify-content: space-around;
 }
 .advantage_item{
     padding-top: 68px;
@@ -82,4 +82,25 @@ body{
 .advantage_pic{
     display: inline-block;
     padding-top: 10px;
+}
+.advantage_item_div_text{
+    padding-top: 10px;
+
+}
+.advantage_text{
+    font-size: 13px;
+    vertical-align: middle;
+}
+.news_and_foto{
+    background-image: url(../img/background_news_gallary.png);
+    color: black;
+    display: flex;
+    justify-content:center;
+}
+.slider{
+ 
+}
+.button{
+    background-color: black;
+    color: white;
 }

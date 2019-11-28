@@ -1,2 +1,3 @@
-почему у строчного элемента нее работает margin-top?
-https://codepen.io/maxkuznecov89/pen/YzzoWNz
+почему не отображается верх и низ? и как отключить одну сторону?
+https://codepen.io/maxkuznecov89/pen/NWWQaJP?editors=1100
+не понятно повидение justify-content:center;
