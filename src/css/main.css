@@ -1,7 +1,7 @@
-* {
-    outline: 1px solid red;
-    
-}
+/** {*/
+    /*outline: 1px solid red;*/
+    /**/
+/*}*/
 /*html{*/
     /*overflow-x:hidden;*/
 /*}*/
@@ -69,6 +69,7 @@ body{
     color: white;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 63px;
 }
 .advantage_item{
     padding-top: 68px;
@@ -95,12 +96,71 @@ body{
     background-image: url(../img/background_news_gallary.png);
     color: black;
     display: flex;
-    justify-content:center;
+    justify-content:start;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
-.slider{
- 
-}
+
 .button{
     background-color: black;
     color: white;
+}
+.news{
+    border-right: 10px solid ;
+    border-image: url("../img/BorderNews.png") 20 80;
+    width: 36%;
+    padding-left: 80px;
+    padding-right: 40px;
+
+
+
+
+}
+
+.foto{
+    padding-left: 86px;
+    /*width: 30%;*/
+}
+.h3_block{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+.news_content{
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.news_date{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+.news_button{
+    margin-top: 7px;
+
+}
+.button{
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    /*padding-left: 32px;*/
+    /*padding-right: 32px;*/
+    width: 9.5em;
+}
+
+.slider{
+border: 7px solid white;
+}
+.button_slider{
+    margin-right: 14px;
+}
+.wrapper_slider_button{
+
+    padding-top: 33px;
+
 }
