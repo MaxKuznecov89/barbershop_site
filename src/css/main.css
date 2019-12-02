@@ -1,7 +1,6 @@
-/** {*/
-    /*outline: 1px solid red;*/
-    /**/
-/*}*/
+*{
+    outline: 1px solid red;
+}
 /*html{*/
     /*overflow-x:hidden;*/
 /*}*/
@@ -108,12 +107,10 @@ body{
 .news{
     border-right: 10px solid ;
     border-image: url("../img/BorderNews.png") 20 80;
-    width: 36%;
+/*    box-sizing: border-box;*/
+    width: 343px;
     padding-left: 80px;
     padding-right: 40px;
-
-
-
 
 }
 
@@ -145,12 +142,16 @@ body{
 
 }
 .button{
-    padding-top:15px;
-    padding-bottom: 15px;
-    font-size: 15px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    font-size: 14px;
     /*padding-left: 32px;*/
     /*padding-right: 32px;*/
-    width: 9.5em;
+    min-width: 10.3em;
+}
+
+.wrapper_slider_button :last-child{
+    margin-right: 0;
 }
 
 .slider{
@@ -161,6 +162,38 @@ border: 7px solid white;
 }
 .wrapper_slider_button{
 
-    padding-top: 33px;
+    padding-top: 24px;
 
+}
+.contact_and_reserve{
+    background-image: url(../img/background_news_gallary.png);
+    color: black;
+    display: flex;
+    justify-content:start;
+    padding-bottom: 51px;
+    padding-top: 46px;
+    margin-top: 33px;
+}
+.contact{
+    border-right: 10px solid ;
+    border-image: url("../img/BorderNews.png") 20 80;
+/*    box-sizing: border-box;*/
+     min-width: 343px;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.reserve{
+    padding-left: 86px;
+    /*width: 30%;*/
+}
+.contact_content{
+    padding-bottom: 25px;
+}
+.contact_button{
+    margin-right: 7px;
+}
+#formReserve{
+    display: flex;
+    flex-wrap: wrap;
 }
