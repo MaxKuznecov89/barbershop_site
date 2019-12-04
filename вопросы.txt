@@ -1,1 +1,2 @@
-как организовать блок с формами(смотри макет)
+1.form action=""  - только backend языки, как отловить то что улетает при клике на кнопку submit через js
+2.Вопрос по nth-children https://codepen.io/jsBeginner1984/pen/ZEYYxjp

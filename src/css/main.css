@@ -108,7 +108,7 @@ body{
     border-right: 10px solid ;
     border-image: url("../img/BorderNews.png") 20 80;
 /*    box-sizing: border-box;*/
-    width: 343px;
+    max-width: 343px;
     padding-left: 80px;
     padding-right: 40px;
 
@@ -116,6 +116,7 @@ body{
 
 .foto{
     padding-left: 86px;
+    max-width: 306px;
     /*width: 30%;*/
 }
 .h3_block{
@@ -185,6 +186,7 @@ border: 7px solid white;
 
 .reserve{
     padding-left: 86px;
+    max-width: 306px;
     /*width: 30%;*/
 }
 .contact_content{
@@ -196,4 +198,42 @@ border: 7px solid white;
 #formReserve{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.client_input_enter{
+
+    border: 1px solid black;
+    padding-top:11px;
+    padding-bottom: 11px;
+    max-width: 8.5em;
+    /*margin-right: 21px;*/
+    /*background-color: #00b3ff*/
+    /*font-size: 14px;*/
+    /*padding-left: 32px;*/
+    /*padding-right: 32px;*/
+    /*min-width: 10.3em;*/
+}
+.client_input{
+
+    padding-right: 5px;
+}
+/*.input_time,.input_phone{*/
+    /*margin-right: 0;*/
+/*}*/
+
+form:nth-child(2){
+    /*padding-right: 0;*/
+    background-color: #00b3ff;
+
+}
+
+/*#formReserve:nth-child(even){*/
+    /*!*padding-right: 20px;*!*/
+    /*background-color: #00b3ff;*/
+
+/*}*/
+
+.client_input_submit{
+    display: block;
+    width: 100%;
 }
