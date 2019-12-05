@@ -1,2 +1,5 @@
-1.form action=""  - только backend €зыки, как отловить то что улетает при клике на кнопку submit через js
-2.¬опрос по nth-children https://codepen.io/jsBeginner1984/pen/ZEYYxjp
+1)почему не перебиваетс€ dispaiy у input
+https://codepen.io/maxkuznecov89/pen/YzPzwzo?editors=1101
+
+2) поведение марджинов вложенных элементов
+https://codepen.io/maxkuznecov89/pen/NWPqpjx

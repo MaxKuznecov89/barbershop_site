@@ -1,9 +1,9 @@
+/*
 *{
     outline: 1px solid red;
 }
-/*html{*/
-    /*overflow-x:hidden;*/
-/*}*/
+*/
+
 
 body{
      font-family:  'webfontregular';
@@ -26,6 +26,9 @@ body{
 
 .wrapper_content {
     background-image: url("../img/tint.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 15px;
 }
 
 .wrapper_footer {
@@ -201,11 +204,13 @@ border: 7px solid white;
     justify-content: space-between;
 }
 .client_input_enter{
-
+    box-sizing: border-box;
     border: 1px solid black;
     padding-top:11px;
     padding-bottom: 11px;
+    padding-left: 13px;
     max-width: 8.5em;
+    margin-top: 9px;
     /*margin-right: 21px;*/
     /*background-color: #00b3ff*/
     /*font-size: 14px;*/
@@ -214,26 +219,56 @@ border: 7px solid white;
     /*min-width: 10.3em;*/
 }
 .client_input{
-
+    padding-top: 10px;
     padding-right: 5px;
 }
-/*.input_time,.input_phone{*/
-    /*margin-right: 0;*/
-/*}*/
 
-form:nth-child(2){
-    /*padding-right: 0;*/
-    background-color: #00b3ff;
+form .client_input:nth-child(even){
+    padding-right: 10px;
 
 }
-
-/*#formReserve:nth-child(even){*/
-    /*!*padding-right: 20px;*!*/
-    /*background-color: #00b3ff;*/
-
-/*}*/
+.submit{
+    padding-right: 8px;
+    padding-top: 25px;
+}
 
 .client_input_submit{
     display: block;
     width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+label{
+    margin-left: 13px;
+    font-size: 14px;
+}
+
+.advantages_items .advantage_item:nth-child(2) {
+    padding-left: 26px;
+}
+.wrapper_footer{
+    color: white;
+}
+.footer_in_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_in_wrapper{
+  margin-bottom: 50px;  
+}
+
+.wrapper_footer{
+    padding-top: 49px;
+    font-size: 13px;
+}
+.footer_social{
+    margin-right: 146px;
+    
 }
