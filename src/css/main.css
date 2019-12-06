@@ -8,15 +8,32 @@
 body{
      font-family:  'webfontregular';
 }
-
+.header_logo{
+    margin-top: 25px;
+    margin-left: 25px;
+}
 .in_wrapper {
     width: 950px;
     margin: 0 auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.wrapper_header .in_wrapper_header_all_site{
+    justify-content: start;
+}
+
+.wrapper_header .nav_all_site{
+    margin-left: 20px;
+    margin-right: 138px;
+}
+
+.wrapper_header .wrap_enter_all_site{
+    padding-right: 19px;
 }
 
 .in_wrapper_header{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .wrapper_header {
@@ -55,8 +72,20 @@ body{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+.items_nav_hover:hover{
+    background-color: #242424;
+}
+.items_nav_shop a{
+
+
+    border-bottom: 5px solid white;
+    padding-bottom: 24px;
+
+
+}
 .wrap_enter{
-    padding-left: 0;
+    padding-left: 24px;
     padding-right: 30px;
 }
 .header_in_picture{
