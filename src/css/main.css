@@ -3,7 +3,9 @@
     outline: 1px solid red;
 }
 */
-
+h1{
+    margin: 0;
+}
 
 body{
      font-family:  'webfontregular';
@@ -61,10 +63,11 @@ body{
 
 .nav_link {
     color: white;
-    text-decoration: none;
-
     text-transform: uppercase;
  
+}
+a{
+    text-decoration: none;
 }
 .items_nav{
     padding-left: 20px;
@@ -300,4 +303,21 @@ label{
 .footer_social{
     margin-right: 146px;
     
+}
+
+
+body .wrapper_content_shop{
+    background-image: url(../img/background_news_gallary.png);
+}
+.shop_items{
+    background-color: black;
+}
+
+.path_and_links{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.path_and_links_item_a{
+    color: black;
 }
