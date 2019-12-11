@@ -1,5 +1,0 @@
-1)почему не перебивается dispaiy у input
-https://codepen.io/maxkuznecov89/pen/YzPzwzo?editors=1101
-
-2) поведение марджинов вложенных элементов
-https://codepen.io/maxkuznecov89/pen/NWPqpjx
